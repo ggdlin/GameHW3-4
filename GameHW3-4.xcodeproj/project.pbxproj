@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E61F46C4259135C5003F1A06 /* GameHW3_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F46C3259135C5003F1A06 /* GameHW3_4App.swift */; };
-		E61F46C6259135C5003F1A06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F46C5259135C5003F1A06 /* ContentView.swift */; };
 		E61F46C8259135C8003F1A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61F46C7259135C8003F1A06 /* Assets.xcassets */; };
 		E61F46CB259135C8003F1A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61F46CA259135C8003F1A06 /* Preview Assets.xcassets */; };
+		E666049C25914502009F1EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E666049B25914502009F1EC3 /* ContentView.swift */; };
+		E666049F25914F03009F1EC3 /* GameUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E666049E25914F03009F1EC3 /* GameUISlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E61F46C0259135C5003F1A06 /* GameHW3-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameHW3-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61F46C3259135C5003F1A06 /* GameHW3_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHW3_4App.swift; sourceTree = "<group>"; };
-		E61F46C5259135C5003F1A06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E61F46C7259135C8003F1A06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61F46CA259135C8003F1A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E61F46CC259135C8003F1A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E666049B25914502009F1EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E666049E25914F03009F1EC3 /* GameUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUISlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				E61F46C3259135C5003F1A06 /* GameHW3_4App.swift */,
-				E61F46C5259135C5003F1A06 /* ContentView.swift */,
+				E666049B25914502009F1EC3 /* ContentView.swift */,
+				E666049E25914F03009F1EC3 /* GameUISlider.swift */,
 				E61F46C7259135C8003F1A06 /* Assets.xcassets */,
 				E61F46CC259135C8003F1A06 /* Info.plist */,
 				E61F46C9259135C8003F1A06 /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61F46C6259135C5003F1A06 /* ContentView.swift in Sources */,
+				E666049C25914502009F1EC3 /* ContentView.swift in Sources */,
+				E666049F25914F03009F1EC3 /* GameUISlider.swift in Sources */,
 				E61F46C4259135C5003F1A06 /* GameHW3_4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
